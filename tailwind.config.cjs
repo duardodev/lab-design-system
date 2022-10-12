@@ -3,14 +3,21 @@ module.exports = {
   content: ['./src/**/*.tsx'],
   theme: {
     colors: {
-      'gray-900': '#121214',
-      'gray-800': '#202024',
-      'gray-400': '#7c7c8a',
-      'gray-200': '#c4c4cc',
-      'gray-100': '#e1e1e6',
+      transparent: 'transparent',
+      white: '#fff',
 
-      'purple-500': '#a855f7',
-      'purple-600': '#9333ea'
+      gray: {
+        900: '#121214',
+        800: '#202024',
+        400: '#7c7c8a',
+        200: '#c4c4cc',
+        100: '#e1e1e6'
+      },
+
+      purple: {
+        500: '#a855f7',
+        600: '#9333ea'
+      }
     },
     fontSize: {
       xs: 14,
