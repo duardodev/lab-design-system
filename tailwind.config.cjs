@@ -28,6 +28,9 @@ module.exports = {
       '2xl': 32
     },
     extend: {
+      backgroundImage: {
+        blur: 'url(/src/assets/blur-background.png)'
+      },
       fontFamily: {
         sans: 'Inter, sans-serif'
       }
